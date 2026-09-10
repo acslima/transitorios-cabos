@@ -11,6 +11,7 @@ using ..Cabos: AbstractCable
 include("../utils.jl")
 include("admitancia.jl")
 include("impedancia.jl")
+include("buried.jl")
 include("modal.jl")
 
 

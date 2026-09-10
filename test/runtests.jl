@@ -10,4 +10,6 @@ using Test
         include("test-formulas.jl")
     end
 
+    include("test-gustavsen2011.jl")
+
 end

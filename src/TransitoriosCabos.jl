@@ -8,7 +8,7 @@ using .Cabos
 using .Formulas
 
 export struct_to_dict, struct_from_dict, count_conductors_cable, outer_radius,
-       CableComponent, CoaxialCable, PipeCable,
+       CableComponent, CoaxialCable, PipeCable, BuriedCableSystem,
        zy_cabo, ynodal, ynodal_array, modos_propagacao
 
 end # module

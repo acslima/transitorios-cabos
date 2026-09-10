@@ -1,2 +1,10 @@
-.gitignore
-.vscode
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Generated example results and PDF inspection scratch files
+/output/
+/tmp/

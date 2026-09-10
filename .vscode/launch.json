@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Julia: Cable example",
+            "type": "julia",
+            "request": "launch",
+            "program": "${workspaceFolder}/examples/tripolar.jl",
+            "cwd": "${workspaceFolder}",
+            "juliaEnv": "${workspaceFolder}",
+            "stopOnEntry": false
+        },
+        {
+            "name": "Julia: Tests",
+            "type": "julia",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/runtests.jl",
+            "cwd": "${workspaceFolder}",
+            "juliaEnv": "${workspaceFolder}",
+            "stopOnEntry": false
+        }
+    ]
+}

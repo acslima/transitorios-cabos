@@ -507,7 +507,7 @@ function comp_coaxial_cable_impedance(
         radius_in = comp.radius_in
         radius_ext = comp.radius_ext
         radius_ext_insulator = comp.radius_ext_insulator
-        mur_d = comp.mur_c
+        mur_d = comp.mur_d
         
         z_inner = calc_inner_skin_effect_impedance(
             radius_in,

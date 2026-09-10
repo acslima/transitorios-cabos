@@ -2,7 +2,7 @@
 module Cabos
 
 export struct_to_dict, struct_from_dict, count_conductors_cable, outer_radius,
-    CableComponent, CoaxialCable, PipeCable
+    CableComponent, CoaxialCable, PipeCable, BuriedCableSystem
 
 
 """Um cabo abstrato deve conter.
@@ -44,6 +44,7 @@ end
 include("CableComponent.jl")
 include("CoaxialCable.jl")
 include("PipeCable.jl")
+include("BuriedCableSystem.jl")
 
 
 """Dicionário do objeto."""
