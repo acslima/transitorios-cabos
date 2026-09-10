@@ -37,6 +37,23 @@ The example creates `output/gustavsen2011/` containing:
 Generated outputs are ignored by Git. No source PDF is copied into the repository.
 The first command-line argument can select a different output directory.
 
+### Compare with the paper
+
+After generating the Julia waveforms, run:
+
+```sh
+julia --project=. examples/gustavsen2011/compare_paper.jl
+```
+
+This creates `output/gustavsen2011/comparison/` with seven individual comparisons
+and two overview sheets, each in PNG and SVG. Figures 7-10 provide measured
+terminal curves; Figures 14-16 provide the paper's PSCAD sending-current curves.
+Reference curves are digitized approximations from the PDF's native raster
+images. No time shifting, amplitude fitting or changes to the cable model are
+applied. The output also includes descriptive RMSE metrics and run provenance.
+See [the reference-data documentation](reference/README.md) for calibration,
+resolution, limitations and instructions to repeat the digitization.
+
 For a different soil resistivity or the alternative 4.28 kV figure-caption value:
 
 ```julia
@@ -208,8 +225,10 @@ The following distinctions matter when comparing the plots to the paper:
    100 Ω·m; change `soil_resistivity` when a site value is available. Earth-mode
    behaviour and later coupled responses depend on it.
 2. **The measured source samples are missing.** The paper says its measured
-   data can be requested from the first author. There are no digitized curves
-   or invented reference measurements in this repository.
+   data can be requested from the first author. The `reference/` directory now
+   contains approximate digitized figure traces for comparison, clearly
+   distinguished from original measurement samples. They are not used to drive
+   or tune the simulation.
 3. **Published timing and material values are not mutually reproduced by
    the simple coaxial limit.** Table I gives approximately 178.523 nH/m,
    178.563 pF/m, 31.619 Ω, and 177.116 m/μs. These imply a 43.051 μs one-way

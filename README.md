@@ -12,9 +12,12 @@ phase 1, five 500 Ω core terminations and all terminal sheaths grounded:
 
 ```sh
 julia --project=. examples/gustavsen2011.jl
+julia --project=. examples/gustavsen2011/compare_paper.jl
 ```
 
 This saves plots and CSV/NPZ waveforms in `output/gustavsen2011/`.
+The comparison command creates overlays against digitized paper curves in its
+`comparison/` subdirectory, with PNG/SVG plots and descriptive error summaries.
 See [the extracted data and case documentation](examples/gustavsen2011/README.md)
 for the cable dimensions, bonding network, configuration and source limitations.
 Defaults use the paper's 4.08 kV, 1.2/50 μs impulse and an explicitly assumed

@@ -1,0 +1,361 @@
+{
+  "source_filename": "26pwrd03gustavsen.pdf",
+  "source_sha256": "b97513b886af2987d1b96e1d1f57dbb8bae21f328487c2667b724bdcd9b836df",
+  "citation": "Gudmundsdottir et al., IEEE TPWRD 26(3), 2011, 1403-1410",
+  "doi": "10.1109/TPWRD.2010.2084600",
+  "method": "Native raster pixel trace extraction; original axes; no fit or time shift",
+  "columns": [
+    "time_s",
+    "value",
+    "stroke_lower",
+    "stroke_upper",
+    "pixel_x",
+    "pixel_y"
+  ],
+  "bounds_note": "Selected stroke extent, not a statistical confidence interval or instrument accuracy",
+  "traces": [
+    {
+      "id": "fig07",
+      "page": 3,
+      "image": "Im40.tiff",
+      "kind": "measurement",
+      "unit": "V",
+      "quantity": "sending_voltage",
+      "box": [
+        264,
+        1896,
+        20,
+        1324
+      ],
+      "x_cal": [
+        [
+          264,
+          0
+        ],
+        [
+          1896,
+          0.0009
+        ]
+      ],
+      "y_cal": [
+        [
+          20,
+          5000
+        ],
+        [
+          1324,
+          -500
+        ]
+      ],
+      "grid_times_s": [
+        0.0002,
+        0.0004,
+        0.0006,
+        0.0008
+      ],
+      "image_size": [
+        1900,
+        1484
+      ],
+      "sample_count": 1589,
+      "skipped_columns": 31,
+      "seconds_per_pixel": 5.514705882352941e-07,
+      "value_units_per_pixel": 4.217791411042945,
+      "max_gap_s": 4.9632352941176585e-06
+    },
+    {
+      "id": "fig08",
+      "page": 3,
+      "image": "Im41.tiff",
+      "kind": "measurement",
+      "unit": "V",
+      "quantity": "receiving_voltage",
+      "box": [
+        275,
+        1887,
+        21,
+        1325
+      ],
+      "x_cal": [
+        [
+          275,
+          0
+        ],
+        [
+          1887,
+          0.0009
+        ]
+      ],
+      "y_cal": [
+        [
+          21,
+          6000
+        ],
+        [
+          1325,
+          -5000
+        ]
+      ],
+      "grid_times_s": [
+        0.0002,
+        0.0004,
+        0.0006,
+        0.0008
+      ],
+      "image_size": [
+        1891,
+        1488
+      ],
+      "sample_count": 1568,
+      "skipped_columns": 32,
+      "seconds_per_pixel": 5.583126550868486e-07,
+      "value_units_per_pixel": 8.43558282208589,
+      "max_gap_s": 5.02481389578162e-06
+    },
+    {
+      "id": "fig09",
+      "page": 3,
+      "image": "Im42.tiff",
+      "kind": "measurement",
+      "unit": "A",
+      "quantity": "sending_current",
+      "box": [
+        226,
+        1866,
+        20,
+        1325
+      ],
+      "x_cal": [
+        [
+          226,
+          0
+        ],
+        [
+          1866,
+          0.0009
+        ]
+      ],
+      "y_cal": [
+        [
+          20,
+          200
+        ],
+        [
+          1325,
+          -200
+        ]
+      ],
+      "grid_times_s": [
+        0.0002,
+        0.0004,
+        0.0006,
+        0.0008
+      ],
+      "image_size": [
+        1869,
+        1479
+      ],
+      "sample_count": 1596,
+      "skipped_columns": 32,
+      "seconds_per_pixel": 5.48780487804878e-07,
+      "value_units_per_pixel": 0.3065134099616858,
+      "max_gap_s": 4.939024390243922e-06
+    },
+    {
+      "id": "fig10",
+      "page": 4,
+      "image": "Im52.tiff",
+      "kind": "measurement",
+      "unit": "A",
+      "quantity": "receiving_load_current",
+      "box": [
+        181,
+        1886,
+        21,
+        1380
+      ],
+      "x_cal": [
+        [
+          181,
+          0
+        ],
+        [
+          1886,
+          0.0009
+        ]
+      ],
+      "y_cal": [
+        [
+          21,
+          12
+        ],
+        [
+          1380,
+          -8
+        ]
+      ],
+      "grid_times_s": [
+        0.0002,
+        0.0004,
+        0.0006,
+        0.0008
+      ],
+      "image_size": [
+        1889,
+        1546
+      ],
+      "sample_count": 1661,
+      "skipped_columns": 32,
+      "seconds_per_pixel": 5.278592375366569e-07,
+      "value_units_per_pixel": 0.014716703458425313,
+      "max_gap_s": 4.7507331378299385e-06
+    },
+    {
+      "id": "fig14",
+      "page": 5,
+      "image": "Im85.jpg",
+      "kind": "paper_simulation",
+      "unit": "A",
+      "quantity": "sending_current",
+      "box": [
+        104,
+        988,
+        10,
+        564
+      ],
+      "x_cal": [
+        [
+          104,
+          0
+        ],
+        [
+          966,
+          4e-05
+        ]
+      ],
+      "y_cal": [
+        [
+          10,
+          140
+        ],
+        [
+          564,
+          0
+        ]
+      ],
+      "legend": [
+        631,
+        19,
+        984,
+        101
+      ],
+      "image_size": [
+        998,
+        637
+      ],
+      "sample_count": 873,
+      "skipped_columns": 7,
+      "seconds_per_pixel": 4.6403712296983764e-08,
+      "value_units_per_pixel": 0.2527075812274368,
+      "max_gap_s": 3.712296983758733e-07
+    },
+    {
+      "id": "fig15",
+      "page": 6,
+      "image": "Im87.jpg",
+      "kind": "paper_simulation",
+      "unit": "A",
+      "quantity": "sending_current",
+      "box": [
+        103,
+        969,
+        2,
+        547
+      ],
+      "x_cal": [
+        [
+          103,
+          0
+        ],
+        [
+          969,
+          9e-05
+        ]
+      ],
+      "y_cal": [
+        [
+          319,
+          0
+        ],
+        [
+          547,
+          -100
+        ]
+      ],
+      "legend": [
+        610,
+        14,
+        958,
+        93
+      ],
+      "image_size": [
+        1003,
+        623
+      ],
+      "sample_count": 862,
+      "skipped_columns": 0,
+      "seconds_per_pixel": 1.0392609699769053e-07,
+      "value_units_per_pixel": 0.43859649122807015,
+      "max_gap_s": 1.0392609699770886e-07
+    },
+    {
+      "id": "fig16",
+      "page": 6,
+      "image": "Im88.jpg",
+      "kind": "paper_simulation",
+      "unit": "A",
+      "quantity": "sending_current",
+      "box": [
+        109,
+        972,
+        2,
+        544
+      ],
+      "x_cal": [
+        [
+          109,
+          0
+        ],
+        [
+          972,
+          0.0009
+        ]
+      ],
+      "y_cal": [
+        [
+          318,
+          0
+        ],
+        [
+          544,
+          -100
+        ]
+      ],
+      "legend": [
+        618,
+        11,
+        962,
+        91
+      ],
+      "image_size": [
+        992,
+        618
+      ],
+      "sample_count": 859,
+      "skipped_columns": 0,
+      "seconds_per_pixel": 1.0428736964078795e-06,
+      "value_units_per_pixel": 0.4424778761061947,
+      "max_gap_s": 1.0428736964078998e-06
+    }
+  ]
+}
