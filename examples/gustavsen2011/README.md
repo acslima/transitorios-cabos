@@ -242,8 +242,9 @@ The following distinctions matter when comparing the plots to the paper:
    discussed in the paper. The adjacent circuit/OHL coupling and unspecified
    overhead-line geometry are not represented.
 5. **No arrester characteristic is supplied.** Arresters are omitted for this
-   low-voltage linear benchmark. This is not an insulation-coordination model
-   for arbitrary higher impulses.
+   low-voltage linear benchmark. A separate [configurable SVL/NLT extension](SVL_NLT.md)
+   adds illustrative nonlinear SVLs, connection leads and local earth resistors.
+   Its assumed higher impulse and V-I curve are not data from this paper.
 6. **This is a direct frequency-domain calculation.** It does not recreate
    PSCAD rational fits, the physical surge tester, or measurement probes. The
    paper itself reports disagreement with measured later transients associated

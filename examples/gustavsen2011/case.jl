@@ -222,4 +222,6 @@ function simulate(
               soil_resistivity_ohm_m=case.system.soil_resistivity, peak_v=case.peak_v)
 end
 
+include("svl.jl")
+
 end # module Gustavsen2011

@@ -11,5 +11,6 @@ using Test
     end
 
     include("test-gustavsen2011.jl")
+    include("test-svl.jl")
 
 end

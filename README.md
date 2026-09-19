@@ -24,6 +24,22 @@ Defaults use the paper's 4.08 kV, 1.2/50 μs impulse and an explicitly assumed
 soil resistivity of 100 Ω·m. This reconstructs the test circuit; measured
 waveform samples are not supplied in the paper.
 
+## Underground cable with SVLs using NLT
+
+The configurable nonlinear extension places 12 illustrative SVLs at the four
+cross-bonding boxes, with explicit connection inductance and shared local earth
+resistance. It uses the Numerical Laplace Transform for the cable network and
+a coupled nonlinear waveform solve for the SVLs:
+
+```sh
+julia --project=. examples/gustavsen2011_svl.jl
+```
+
+This compares protected and unprotected waveforms, joint stresses and SVL energy
+in `output/gustavsen2011_svl/`. The new runner uses an assumed 100 kV impulse and
+an illustrative V-I curve to exercise conduction. The original 4080 V benchmark
+remains available above. See [SVL connections, equations and configuration](examples/gustavsen2011/SVL_NLT.md).
+
 ## Run in VS Code
 
 1. Open this entire folder with **File → Open Folder…** (the folder containing
